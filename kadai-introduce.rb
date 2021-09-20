@@ -1,6 +1,4 @@
-str1 = '田中'
-str2 = '太郎'
-Full name =str1 + str2
-puts Full name
-age = '25歳です'
-puts age
+first_name = '田中'
+last_name = '太郎'
+age = 25
+puts first_name + last_name + 'です。' + age.to_s + '歳です。'
